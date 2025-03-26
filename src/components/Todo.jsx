@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import toast, { Toaster } from "react-hot-toast";
 import ClipLoader from "react-spinners/ClipLoader";
 
-const BASE_URL = "http://65.0.45.207:5000";
+const BASE_URL = "http://15.206.165.30:5000";
 
 
 const fadeIn = {
@@ -125,7 +125,7 @@ const Todo = () => {
           <button
             onClick={addTask}
             disabled={addingTask}
-            className="px-4 py-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors text-sm md:text-base cursor-pointer hover:bg-blue-700 duration-300"
+            className="px-4 py-2 rounded-lg bg-blue-500 transition-colors text-sm md:text-base cursor-pointer hover:bg-blue-700 duration-300"
           >
             {addingTask ? "Adding..." : "Add"}
           </button>
