@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import toast, { Toaster } from "react-hot-toast";
 import ClipLoader from "react-spinners/ClipLoader";
 
-const BASE_URL = "http://15.206.165.30:5000";
+const BASE_URL = "http://65.2.79.205:5000";
 
 
 const fadeIn = {
